@@ -1,11 +1,12 @@
 {
-    "name": "rappasoft/laravel-boilerplate",
+    "name": "hwnd32/illuminy",
     "type": "project",
-    "description": "The Laravel Boilerplate Project.",
+    "description": "A Laravel Template with Client and Admin parts",
     "keywords": [
         "framework",
         "laravel",
-        "boilerplate"
+        "boilerplate",
+        "illuminy"
     ],
     "license": "MIT",
     "require": {
@@ -21,6 +22,7 @@
         "lab404/laravel-impersonate": "^1.4",
         "langleyfoxall/laravel-nist-password-rules": "^4.0",
         "laravel/framework": "^6.3",
+        "laravel/helpers": "^1.2",
         "laravel/socialite": "^4.1",
         "spatie/laravel-html": "^2.22",
         "spatie/laravel-permission": "^3.0",
@@ -33,7 +35,6 @@
         "facade/ignition-code-editor": "^1.0",
         "facade/ignition-self-diagnosis": "^1.0",
         "facade/ignition-tinker-tab": "^1.0",
-        "friendsofphp/php-cs-fixer": "^2.14",
         "fzaninotto/faker": "^1.9.1",
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^3.0",
@@ -106,9 +107,6 @@
         ],
         "coverage-text": [
             "phpunit --coverage-text"
-        ],
-        "format": [
-            "php-cs-fixer fix --show-progress=estimating --config=.php_cs.dist"
         ]
     }
 }
